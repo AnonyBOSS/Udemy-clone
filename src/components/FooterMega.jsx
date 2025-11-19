@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function FooterMega() {
-  // simplified long footer to emulate screenshots
   const cols = [
     { title: 'About', links: ['About us','Careers','Contact us','Blog','Investors'] },
     { title: 'Discover', links: ['Get the app','Teach on Skillwise','Plans and Pricing','Affiliate','Help and Support'] },

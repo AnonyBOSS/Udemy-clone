@@ -1,5 +1,3 @@
-// src/data/data.js
-// Final corrected image URLs (last broken items replaced with stable thumbnails)
 
 export const categories = [
   { id: 1, title: "Development" },
@@ -12,7 +10,6 @@ export const categories = [
   { id: 8, title: "Data Science" },
 ]
 
-// Main courses array — images validated / replaced where necessary
 export const courses = [
   {
     id: 1,
@@ -80,7 +77,6 @@ export const courses = [
     students: "31,902",
     price: 16.99,
     priceLabel: "$16.99",
-    // replaced flaky earlier Udemy thumbnail with a stable Unsplash shot
     image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=60",
     description: "Prepare for AWS certification and real-world cloud designs.",
     categoryId: 3,
@@ -109,7 +105,6 @@ export const courses = [
     students: "89,102",
     price: 17.99,
     priceLabel: "$17.99",
-    // use a stable Unsplash image for reliability
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=60",
     description: "Pandas, NumPy, visualization and ML basics.",
     categoryId: 8,
@@ -139,7 +134,6 @@ export const courses = [
     students: "33,200",
     price: 8.99,
     priceLabel: "$8.99",
-    // replaced flaky Udemy image with Unsplash portrait
     image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=1200&q=60",
     description: "Photo editing, retouching and compositing.",
     categoryId: 6,
@@ -182,7 +176,6 @@ export const courses = [
     students: "19,999",
     price: 12.49,
     priceLabel: "$12.49",
-    // replaced previously flaky Udemy thumbnail with Unsplash for stability
     image: "https://images.unsplash.com/photo-1522770179533-24471fcdba45?w=1200&q=60",
     description: "Image creation, volumes, networking.",
     categoryId: 3,
@@ -197,7 +190,6 @@ export const courses = [
     students: "15,402",
     price: 18.99,
     priceLabel: "$18.99",
-    // replaced flaky Udemy thumbnail with Unsplash
     image: "https://images.unsplash.com/photo-1543269664-76bc3997d9ea?w=1200&q=60",
     description: "Containers, deployments, and cluster management.",
     categoryId: 3,
@@ -234,7 +226,6 @@ export const courses = [
   },
 ]
 
-// Trusted companies (kept Clearbit; they loaded fine)
 export const companies = [
   { id: 1, name: "Google", logo: "https://logo.clearbit.com/google.com" },
   { id: 2, name: "Microsoft", logo: "https://logo.clearbit.com/microsoft.com" },
@@ -258,7 +249,6 @@ export const companies = [
   { id: 20, name: "Adobe", logo: "https://logo.clearbit.com/adobe.com" }
 ]
 
-// Instructors (Unsplash portraits)
 export const instructors = [
   { id: 1, name: "Jane Doe", title: "Senior Frontend Engineer", bio: "Teaches modern React patterns.", avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=60" },
   { id: 2, name: "John Smith", title: "JavaScript Specialist", bio: "10+ years JS experience.", avatar: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=60&w=400" },
@@ -268,7 +258,6 @@ export const instructors = [
   { id: 6, name: "Ethan Ray", title: "Backend Engineer", bio: "Node.js & API author.", avatar: "https://images.unsplash.com/photo-1545996124-40f0c54b7c53?q=60&w=400" }
 ]
 
-// Additional content blocks
 export const caseStudies = [
   {
     id: 1,
@@ -276,7 +265,6 @@ export const caseStudies = [
     title: 'Booz Allen Hamilton Unlocks Talent Retention and Productivity Through Upskilling',
     statA: { value: '93%', label: 'retention rate among participating employees' },
     statB: { value: '65%', label: 'of learners noted a positive impact on their productivity' },
-    // replaced with stable Unsplash hero image for the case study
     image: 'https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=1200&q=60',
     link: '#'
   },
@@ -357,7 +345,6 @@ export const trendingCourses = [
     rating: 4.7,
     students: '21,227',
     priceLabel: '£309.99',
-    // replaced flaky Udemy thumbnail with a stable Udemy CDN thumbnail (different id)
     image: "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
     badge: 'bestseller'
   },
@@ -384,9 +371,7 @@ export const trendingCourses = [
 ]
 
 export const careerAccelerators = [
-  // replaced previously flaky Udemy image with stable Unsplash
   { id: 'ca1', title: 'Full Stack Web Developer', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&q=60', meta: { ratings: '463K ratings', hours: '87.8 total hours' } },
-  // replaced ca2/ca3 with stable Udemy CDN thumbnails for better reliability
   { id: 'ca2', title: 'Digital Marketer', image: 'https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg', meta: { ratings: '3.7K ratings', hours: '28.4 total hours' } },
   { id: 'ca3', title: 'Data Scientist', image: 'https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg', meta: { ratings: '223K ratings', hours: '47.1 total hours' } }
 ]
