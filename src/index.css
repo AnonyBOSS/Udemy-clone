@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global */
+body {
+  @apply bg-slate-50 text-slate-900;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* page container */
+.max-w-page {
+  max-width: 1150px;
+}
+
+/* subtle shadows */
+.card-shadow-subtle { @apply shadow-sm; }
+.card-shadow { @apply shadow-md; }
+
+/* course card body fixed height */
+.course-card-body {
+  height: 140px;
+}
+
+/* pagination styles */
+.pagination-center { @apply flex items-center justify-center gap-4 mt-8; }
+.page-btn { @apply px-3 py-1 rounded-md border bg-white text-sm; }
+.page-btn:disabled { @apply opacity-50 cursor-not-allowed; }
+
+/* instructor desc */
+.instructor-card-desc { @apply text-sm text-slate-600 leading-relaxed mt-2; }
+
+/* companies carousel focus ring */
+[role="list"][tabindex="0"]:focus {
+  outline: 3px solid rgba(70,39,178,0.12);
+  outline-offset: 4px;
+}
+
+/* hero image */
+.banner-hero {
+  @apply rounded-lg shadow-xl w-full object-cover;
+}
